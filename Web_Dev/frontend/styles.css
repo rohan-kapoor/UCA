@@ -1,0 +1,19 @@
+*{
+    font-size: 20px;
+}
+div {
+    margin: 20px;
+}
+table, th, td {
+    border: 1px solid;
+    border-collapse: collapse;
+    padding-inline: 40px;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#productMenu{
+    width: 100%;
+}
