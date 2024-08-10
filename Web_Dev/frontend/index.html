@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <title>Web Basic Project</title>
+
+    <meta charset="utf-8" />
     <meta
       name="viewport"
-      content="width=device-width, initial-scale=1.0, minimum-scale=0.1, maximum-scale=10.0, user-scalable=1"
+      content="width=device-width, initial-scale=1.0, 
+    minimum-scale=0.1, maximum-scale=10.0, user-scalable=1"
     />
-    <!-- check in mobile -->
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
     <script src="./index.js" async></script>
-    <div>Hello World</div>
+    <script src="./data.js" async></script>
+
+    <div class="row center">
+      <div class="col-6">Welcome to food ordering application</div>
+    </div>
     <div id="jsworld"></div>
     <div class="container">
-        <div id="productMenu"></div>
+      <div id="productMenu" class="row"></div>
     </div>
-    <!-- blocking mode
-    async non-blocking mode
-    defer async non-blocking mode -->
   </body>
 </html>
