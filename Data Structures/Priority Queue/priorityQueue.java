@@ -60,23 +60,23 @@ public class PriorityQueue
             k = j;
         }
     }
-}
 
-public static void main(String[] args)
-{
-    PriorityQueue pQueue = new PriorityQueue(10);
+    public static void main(String[] args)
+    {
+        PriorityQueue pQueue = new PriorityQueue(10);
 
-    pQueue.insert(19);
-    pQueue.insert(9);
-    pQueue.insert(7);
-    pQueue.insert(11);
+        pQueue.insert(19);
+        pQueue.insert(9);
+        pQueue.insert(7);
+        pQueue.insert(11);
 
-    assert pQueue.delMax() == 11;
+        assert pQueue.delMax() == 11;
 
-    pQueue.insert(4);
-    pQueue.insert(23);
-    pQueue.insert(2);
-    pQueue.insert(5);
+        pQueue.insert(4);
+        pQueue.insert(23);
+        pQueue.insert(2);
+        pQueue.insert(5);
 
-    assert pQueue.delMax() == 23;
+        assert pQueue.delMax() == 23;
+    }
 }
