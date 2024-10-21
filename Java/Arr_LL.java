@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Inheritence2 {
+public class Arr_LL {
     public static void main(String[] args) {
         List<Integer> array = new ArrayList<>();
         List<Integer> linkedList = new LinkedList<>();
