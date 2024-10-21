@@ -1,0 +1,7 @@
+Normal Function:
+  - Normal function can be called anywhere.
+  - Normal functions cannot call hooks.
+
+Hook Functions:
+  - Hooks can only be called at the top level of the component.
+  - Hook functions can internal other calls.
